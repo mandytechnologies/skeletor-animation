@@ -1,6 +1,6 @@
 <?php
 
-namespace Skeletor;
+namespace Mandy;
 
 use \stdClass;
 

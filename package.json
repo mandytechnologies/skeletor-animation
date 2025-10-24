@@ -1,6 +1,6 @@
 {
-    "name": "skeletor-animation",
-    "version": "1.0.1",
+    "name": "mandy-animation",
+    "version": "1.0.2",
     "description": "Adds support for block intro animations",
     "main": "index.js",
     "scripts": {
@@ -15,7 +15,7 @@
         "classnames": "^2.3.2"
     },
     "plugin_data": {
-        "title": "Skeletor Block Settings — Animation",
+        "title": "Mandy Block Settings — Animation",
         "author": "Mandy",
         "author_profile": "https://mandytechnologies.com",
         "download_url": "https://bitbucket.org/madebymandy/skeletor-animation/get/master.zip",

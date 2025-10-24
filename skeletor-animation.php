@@ -3,13 +3,13 @@
 namespace Mandy;
 
 /*
-Plugin Name: Quick Build Block Settings — Animation
-Plugin URI:  https://quickbuildwebsite.com
+Plugin Name: Mandy Build Block Settings — Animation
+Plugin URI:  https://github.com/mandytechnologies/skeletor-animation
 Description: Adds support for block intro animations
 Version:     1.0.1
-Author:      Quick Build
-Author URI:  https://quickbuildwebsite.com
-Text Domain: quickbuild
+Author:      Mandy Technologies
+Author URI:  https://www.mandytechnologies.com/
+Text Domain: mandy-build-block-settings-animation
 */
 
 // Exit if accessed directly
