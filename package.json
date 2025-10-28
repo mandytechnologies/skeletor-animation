@@ -1,5 +1,5 @@
 {
-    "name": "mandy-animation",
+    "name": "mandy-block-setting-animation",
     "version": "1.0.2",
     "description": "Adds support for block intro animations",
     "main": "index.js",
@@ -8,7 +8,7 @@
         "start": "wp-scripts start src/index.js src/frontend.js src/animation.scss",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "author": "",
+    "author": "Quick Build",
     "license": "ISC",
     "devDependencies": {
         "@wordpress/scripts": "^26.16.0",
@@ -16,8 +16,8 @@
     },
     "plugin_data": {
         "title": "Mandy Block Settings — Animation",
-        "author": "Mandy",
-        "author_profile": "https://mandytechnologies.com",
+        "author": "Quick Build",
+        "author_profile": "https://www.quickbuildwebsite.com/",
         "download_url": "https://bitbucket.org/madebymandy/skeletor-animation/get/master.zip",
         "tested": "6.3.2",
         "requires": "6.1.0",

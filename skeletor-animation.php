@@ -1,15 +1,18 @@
 <?php
-
-namespace Mandy;
-
-/*
-Plugin Name: Mandy Build Block Settings — Animation
-Plugin URI:  https://github.com/mandytechnologies/skeletor-animation
-Description: Adds support for block intro animations
-Version:     1.0.1
-Author:      Mandy Technologies
-Author URI:  https://www.mandytechnologies.com/
-Text Domain: mandy-build-block-settings-animation
+/**
+ * Plugin Name:           QB - Block Settings - Animation
+ * Plugin URI:            https://github.com/mandytechnologies/skeletor-animation
+ * Description:           Why show many section when one do trick?
+ * Version:               1.0.2
+ * Requires PHP:          7.0
+ * Requires at least:     6.1.0
+ * Tested up to:          6.8.2
+ * Author:                Quick Build
+ * Author URI:            https://www.quickbuildwebsite.com/
+ * License:               GPLv2 or later
+ * License URI:           https://www.gnu.org/licenses/
+ * Text Domain:           mandy-block-settings-animation
+ * 
 */
 
 // Exit if accessed directly
@@ -98,14 +101,12 @@ class SkeletorBlockAnimation {
 
 add_action('after_setup_theme', ['\Mandy\SkeletorBlockAnimation', 'setup']);
 
-define('SKELETOR_ANIMATION_VERSION', '1.0.1');
+define('MANDY_ANIMATION_VERSION', '1.0.2');
 
-if (!class_exists('\Skeletor\Plugin_Updater')) {
-	require_once(__DIR__ . '/class--plugin-updater.php');
-}
-
-$updater = new \Skeletor\Plugin_Updater(
-	plugin_basename(__FILE__),
-	SKELETOR_ANIMATION_VERSION,
-	'https://bitbucket.org/madebymandy/skeletor-animation/raw/HEAD/package.json'
+$update_checker = Puc_v4_Factory::buildUpdateChecker(
+	'https://github.com/mandytechnologies/skeletor-animation',
+	__FILE__,
+	'skeletor-animation'
 );
+
+require_once( 'includes/class-plugin.php' );
