@@ -1,4 +1,7 @@
 <?php
+
+namespace Mandy;
+
 /**
  * Plugin Name:           QB - Block Settings - Animation
  * Plugin URI:            https://github.com/mandytechnologies/skeletor-animation
@@ -105,7 +108,7 @@ define('MANDY_ANIMATION_VERSION', '1.0.2');
 
 require 'plugin-update-checker/plugin-update-checker.php';
 
-$update_checker = Puc_v4_Factory::buildUpdateChecker(
+$update_checker = \Puc_v4_Factory::buildUpdateChecker(
 	'https://github.com/mandytechnologies/skeletor-animation',
 	__FILE__,
 	'skeletor-animation'
