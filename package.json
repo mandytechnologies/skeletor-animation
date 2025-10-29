@@ -1,5 +1,5 @@
 {
-    "name": "mandy-block-setting-animation",
+    "name": "qb-block-setting-animation",
     "version": "1.0.2",
     "description": "Adds support for block intro animations",
     "main": "index.js",
@@ -15,10 +15,10 @@
         "classnames": "^2.3.2"
     },
     "plugin_data": {
-        "title": "Mandy Block Settings — Animation",
+        "title": "QB Block Settings — Animation",
         "author": "Quick Build",
         "author_profile": "https://www.quickbuildwebsite.com/",
-        "download_url": "https://bitbucket.org/madebymandy/skeletor-animation/get/master.zip",
+        "download_url": "https://github.com/mandytechnologies/skeletor-animation/archive/refs/heads/main.zip",
         "tested": "6.3.2",
         "requires": "6.1.0",
         "requires_php": "8.0",

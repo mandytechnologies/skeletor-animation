@@ -2,7 +2,7 @@
 /**
  * Plugin Name:           QB - Block Settings - Animation
  * Plugin URI:            https://github.com/mandytechnologies/skeletor-animation
- * Description:           Why show many section when one do trick?
+ * Description:           This plugin enables animated effects for WordPress blocks.
  * Version:               1.0.2
  * Requires PHP:          7.0
  * Requires at least:     6.1.0
@@ -11,7 +11,7 @@
  * Author URI:            https://www.quickbuildwebsite.com/
  * License:               GPLv2 or later
  * License URI:           https://www.gnu.org/licenses/
- * Text Domain:           mandy-block-settings-animation
+ * Text Domain:           qb-block-settings-animation
  * 
 */
 
@@ -102,6 +102,8 @@ class SkeletorBlockAnimation {
 add_action('after_setup_theme', ['\Mandy\SkeletorBlockAnimation', 'setup']);
 
 define('MANDY_ANIMATION_VERSION', '1.0.2');
+
+require 'plugin-update-checker/plugin-update-checker.php';
 
 $update_checker = Puc_v4_Factory::buildUpdateChecker(
 	'https://github.com/mandytechnologies/skeletor-animation',

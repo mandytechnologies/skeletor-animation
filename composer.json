@@ -1,6 +1,6 @@
 {
-	"name": "mandytechnologies/mandy-block-setting-animation",
-	"description": "my-awesome-plugin is a WordPress plugin.",
+	"name": "mandytechnologies/qb-block-setting-animation",
+	"description": "QB Block Setting Animation enables animated effects for WordPress blocks.",
 	"keywords": ["wordpress", "social", "sharing"],
 	"type": "wordpress-plugin",
 	"homepage": "https://github.com/mandytechnologies/skeletor-animation",
